@@ -11,4 +11,28 @@ header {
 
 header .container {
   padding: 20px;
+  height: 70px;
+  position: relative;
+  top: 0;
+}
+.logo img {
+  width: 130px;
+  float: left;
+}
+header nav {
+  float: right;
+  /* display: inline; */
+  margin: 0 50px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
+nav li .sign-in {
+  width: 130px;
+  height: 45px;
+}
+nav li .search {
+  height: 45px;
+  width: 45px;
 }
